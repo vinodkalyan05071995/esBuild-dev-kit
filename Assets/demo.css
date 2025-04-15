@@ -1,0 +1,8 @@
+/* src/scss/demo.scss */
+.demo {
+  background-color: red;
+}
+.demo .demo--child {
+  background-color: blue;
+}
+/*# sourceMappingURL=demo.css.map */
