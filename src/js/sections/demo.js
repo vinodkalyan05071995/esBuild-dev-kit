@@ -1,4 +1,3 @@
-import Swiper from "swiper";
 
 const add = (a,b)=>{
     return a+b;
