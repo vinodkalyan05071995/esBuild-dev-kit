@@ -1,1 +1,1 @@
-import 'swiper'
+export * from 'swiper'
