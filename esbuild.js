@@ -7,9 +7,9 @@ import { sassPlugin } from 'esbuild-sass-plugin';
 (async () => {
 
   const entryPoints = [
+    'src/js/*.js',
     'src/**/theme.js',
     'src/**/sections.js',
-    'src/js/vender.js',
     'src/**/base.scss',
     'src/**/sections/*.scss'];
 
@@ -17,6 +17,7 @@ import { sassPlugin } from 'esbuild-sass-plugin';
     entryPoints,
     bundle: true,
     // sourcemap: true,
+    allowOverwrite: true,
     treeShaking: true,
     entryNames: '[name]',
     outdir: 'Assets',
